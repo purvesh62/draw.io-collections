@@ -1,12 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T21:33:57.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="A5shfPSLttAa_1FP6jSJ" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T21:34:23.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="vAcqHxQvQOs7RSsF-3FC" version="21.6.1" type="github">
   <diagram name="Page-1" id="EhTNOT_K2n1csAnsaTSJ">
-    <mxGraphModel dx="855" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IKtvbvnAMoomG4cAqskK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="IKtvbvnAMoomG4cAqskK-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="310" as="targetPoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-30" value="Call Lambda function to invalidate &lt;br&gt;CloudFront distribution cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IKtvbvnAMoomG4cAqskK-29">
@@ -17,8 +17,8 @@
         <mxCell id="IKtvbvnAMoomG4cAqskK-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IKtvbvnAMoomG4cAqskK-4" target="IKtvbvnAMoomG4cAqskK-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="479" />
-              <mxPoint x="540" y="480" />
+              <mxPoint x="560" y="479" />
+              <mxPoint x="560" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-4" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
-          <mxGeometry x="401" y="440" width="78" height="78" as="geometry" />
+          <mxGeometry x="421" y="440" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="IKtvbvnAMoomG4cAqskK-7" target="IKtvbvnAMoomG4cAqskK-16">
           <mxGeometry relative="1" as="geometry" />
@@ -39,13 +39,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-7" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
-          <mxGeometry x="240" y="440" width="80" height="100" as="geometry" />
+          <mxGeometry x="260" y="440" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="IKtvbvnAMoomG4cAqskK-8" target="IKtvbvnAMoomG4cAqskK-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="641" y="610" />
-              <mxPoint x="280" y="610" />
+              <mxPoint x="661" y="610" />
+              <mxPoint x="300" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -63,10 +63,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-8" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
-          <mxGeometry x="600.5" y="440" width="80" height="110" as="geometry" />
+          <mxGeometry x="620.5" y="440" width="80" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="605.25" y="180" width="70.5" height="124" as="geometry" />
+          <mxGeometry x="625.25" y="180" width="70.5" height="124" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-34" value="" style="group" vertex="1" connectable="0" parent="IKtvbvnAMoomG4cAqskK-13">
           <mxGeometry width="70.5" height="115.5" as="geometry" />
@@ -78,7 +78,7 @@
           <mxGeometry x="5.25" y="85.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-23" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="160" width="471" height="150" as="geometry" />
+          <mxGeometry x="60" y="160" width="471" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IKtvbvnAMoomG4cAqskK-23">
           <mxGeometry width="471" height="150" as="geometry" />
@@ -125,10 +125,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-31" value="Amazon Lambda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="410" y="518" width="60" height="30" as="geometry" />
+          <mxGeometry x="430" y="518" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-38" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="90" y="-10" width="60" height="80" as="geometry" />
+          <mxGeometry x="110" y="-10" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-24" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="IKtvbvnAMoomG4cAqskK-38">
           <mxGeometry x="6" width="48" height="48" as="geometry" />
@@ -137,7 +137,7 @@
           <mxGeometry y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-46" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="401" y="-20" width="61" height="90" as="geometry" />
+          <mxGeometry x="421" y="-20" width="61" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-44" value="" style="group" vertex="1" connectable="0" parent="IKtvbvnAMoomG4cAqskK-46">
           <mxGeometry x="1" width="60" height="90" as="geometry" />
@@ -149,7 +149,7 @@
           <mxGeometry width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-49" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="610" y="-20" width="68.19000000000005" height="90" as="geometry" />
+          <mxGeometry x="630" y="-20" width="68.19000000000005" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-47" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.website_generic;fillColor=#7D7D7D;" vertex="1" parent="IKtvbvnAMoomG4cAqskK-49">
           <mxGeometry width="68.19" height="60" as="geometry" />
@@ -164,10 +164,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-54" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="100" width="750" height="540" as="geometry" />
+          <mxGeometry x="30" y="100" width="750" height="540" as="geometry" />
         </mxCell>
         <mxCell id="IKtvbvnAMoomG4cAqskK-56" value="&lt;h1&gt;Cloud Native Portfolio Website Architecture&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="125" y="-100" width="520" height="40" as="geometry" />
+          <mxGeometry x="145" y="-100" width="520" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
